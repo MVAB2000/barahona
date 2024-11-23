@@ -1,0 +1,19 @@
+header{ background-color:	#228b22;
+COLOR:#ff1493;}
+#contenidocabezera  {display:flex;}
+imagentitulo {flex: 1;
+heigth:30px;}
+#logotipo  {height:100px;}
+.textotilulo{flex: 2;}
+nav{ bacground-color: #000000;
+color: #ffffff;
+   display:flex;
+justify-content: flex-end;}
+nav ul{display: flex;
+list-style: none;}
+nav ul li {margin: 0 10px;}
+nav ul li a {tex-decoration: none; i.color:  #ffffff;}
+nav ul li ul {display: none;}
+nav ul li :hover ul {display:block;
+ position: absolute;
+background-color: #000055;}
